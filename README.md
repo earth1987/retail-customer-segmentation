@@ -9,7 +9,7 @@ This strategy is invaluable as it enables businesses to tailor their marketing e
 # Scope
 The dataset has been downloaded from [Kaggle](https://www.kaggle.com/code/karnikakapoor/customer-segmentation-clustering) It contains customer information collected from a mall's membership cards. As the data types are mixed, clustering will be tested using k-means (after one hot encoding), k-prototypes and hierarchical clustering (coupled with Gower's distance).
 
-## File structure
+# File structure
 <pre>
 |- notebooks/
    |- data_exploration.ipynb
@@ -24,7 +24,7 @@ The dataset has been downloaded from [Kaggle](https://www.kaggle.com/code/karnik
 |- README.md
 </pre>
 
-## Conclusion
+# Conclusion
 Clustering was most effective with the k-prototypes algorithm. This revealed the presence of five distinct clusters (described below). The algorithm successfully distringuished low income/spend groups according to age and spending patterns.
 
 * Cluster 0 = Below average spend (lowest), income (lowest) and age (lowest). Above average no. of deal purchases. Below average no. of catalogue, store and web purchases. Despite low spend, above average no. of web visits (highest). Unlikely to be a parent. 
